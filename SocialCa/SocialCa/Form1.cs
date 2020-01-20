@@ -15,6 +15,8 @@ namespace SocialCa
         public Form1()
         {
             InitializeComponent();
+            Authorization form = new Authorization();
+            form.ShowDialog();
         }
     }
 }
