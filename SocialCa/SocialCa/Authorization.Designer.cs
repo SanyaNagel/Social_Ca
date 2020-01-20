@@ -31,7 +31,7 @@
             this.input_B = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.login_TB = new System.Windows.Forms.TextBox();
-            this.Pasword_TB = new System.Windows.Forms.TextBox();
+            this.pasword_TB = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.registration_B = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,12 +63,12 @@
             this.login_TB.Size = new System.Drawing.Size(111, 20);
             this.login_TB.TabIndex = 2;
             // 
-            // Pasword_TB
+            // pasword_TB
             // 
-            this.Pasword_TB.Location = new System.Drawing.Point(59, 83);
-            this.Pasword_TB.Name = "Pasword_TB";
-            this.Pasword_TB.Size = new System.Drawing.Size(111, 20);
-            this.Pasword_TB.TabIndex = 4;
+            this.pasword_TB.Location = new System.Drawing.Point(59, 83);
+            this.pasword_TB.Name = "pasword_TB";
+            this.pasword_TB.Size = new System.Drawing.Size(111, 20);
+            this.pasword_TB.TabIndex = 4;
             // 
             // label2
             // 
@@ -105,7 +105,7 @@
             this.ClientSize = new System.Drawing.Size(229, 196);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.registration_B);
-            this.Controls.Add(this.Pasword_TB);
+            this.Controls.Add(this.pasword_TB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.login_TB);
             this.Controls.Add(this.label1);
@@ -122,7 +122,7 @@
         private System.Windows.Forms.Button input_B;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox login_TB;
-        private System.Windows.Forms.TextBox Pasword_TB;
+        private System.Windows.Forms.TextBox pasword_TB;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button registration_B;
         private System.Windows.Forms.Label label3;
