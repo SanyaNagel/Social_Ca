@@ -44,8 +44,14 @@ namespace SocialCa
             this.Close();
         }
 
+        /// <summary>
+        /// Кнопка "Регистрация"
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void registration_B_Click(object sender, EventArgs e)
         {
+            //Преобразуем форму в форму "регистрация"
             registration_B.Visible = false;
             input_B.Text = "Зарегестрировать";
         }
